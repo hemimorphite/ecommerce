@@ -1,0 +1,49 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/axios": "^0.9.36",
+    "@types/cors": "^2.8.17",
+    "@types/fastify-cors": "^0.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^22.13.1",
+    "@types/pg": "^8.11.11",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^9.20.1",
+    "jest": "^29.7.0",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.1.9",
+    "postgrator-cli": "^9.0.1",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-cors": "^6.0.3",
+    "fastify-sensible": "^3.1.2",
+    "pg-promise": "^11.10.2"
+  },
+  "_moduleAliases": {
+    "@": "./dist"
+  }
+}

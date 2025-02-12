@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+.next/
+out/
+dist/
+
+# Static cache
+public/cache/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs & Debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+debug.log
+error.log
+
+# Jest & Testing
+coverage/
+.nyc_output/
+.vscode/test-result/
+jest/
+
+# IDE & OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

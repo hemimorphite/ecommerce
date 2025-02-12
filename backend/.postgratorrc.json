@@ -1,0 +1,9 @@
+{
+  "driver": "pg",
+  "host": "localhost",
+  "port": 5433,
+  "database": "ecommerce",
+  "username": "admin",
+  "password": "admin",
+  "schemaTable": "migrations"
+}
